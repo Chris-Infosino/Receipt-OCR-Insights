@@ -1,3 +1,5 @@
+<a href="https://receipt-ocr-insights.streamlit.app"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"><a/>
+
 # Use OCR to read and process data from receipts
 This repository focuses on using python's easyocr package to read text from receipts and identify key information of interest.  
 A JSON file is created to store important information alongside each receipt image.  
