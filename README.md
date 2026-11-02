@@ -3,7 +3,7 @@ This repository focuses on using python's easyocr package to read text from rece
 A JSON file is created to store important information alongside each receipt image.  
 Annotations are then made on the image directly to highlight the date and total on each receipt. 
 
-Access the [demo on Streamlit](https://example_link.com) or follow the installation steps below.
+Access the [demo on Streamlit](https://receipt-ocr-insights.streamlit.app/) or follow the installation steps below.
 
 ## Installation
 1. Clone this repository or download the source code.  
