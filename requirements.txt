@@ -1,0 +1,9 @@
+ipykernel
+pandas
+numpy
+matplotlib
+easyocr
+opencv-python #cv2
+pillow #PIL
+dateparser
+streamlit

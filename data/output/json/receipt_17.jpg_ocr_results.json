@@ -1,0 +1,98 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\receipt_17.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\receipt_17.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 198,
+            "ymin": 906,
+            "xmax": 396,
+            "ymax": 962
+          },
+          "Text": "SUBTOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 876,
+            "ymin": 906,
+            "xmax": 1056,
+            "ymax": 962
+          },
+          "Text": "175,000"
+        },
+        {
+          "Coordinates": {
+            "xmin": 194,
+            "ymin": 992,
+            "xmax": 437,
+            "ymax": 1060
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 718,
+            "ymin": 992,
+            "xmax": 1065,
+            "ymax": 1059
+          },
+          "Text": "175,000"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 659,
+            "ymin": 567,
+            "xmax": 1026,
+            "ymax": 621
+          },
+          "Text": "26/01/2015 16:13"
+        },
+        {
+          "Coordinates": {
+            "xmin": 284,
+            "ymin": 1240,
+            "xmax": 787,
+            "ymax": 1307
+          },
+          "Text": "=~-26/01/2015 16:14"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 198,
+      "ymin": 906,
+      "xmax": 396,
+      "ymax": 962
+    },
+    {
+      "xmin": 194,
+      "ymin": 992,
+      "xmax": 437,
+      "ymax": 1060
+    }
+  ],
+  "date": [
+    {
+      "xmin": 659,
+      "ymin": 567,
+      "xmax": 1026,
+      "ymax": 621
+    },
+    {
+      "xmin": 284,
+      "ymin": 1240,
+      "xmax": 787,
+      "ymax": 1307
+    }
+  ]
+}

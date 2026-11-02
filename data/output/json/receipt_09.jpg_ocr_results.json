@@ -1,0 +1,83 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\receipt_09.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\receipt_09.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 438,
+            "ymin": 654,
+            "xmax": 516,
+            "ymax": 678
+          },
+          "Text": "SubToTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 557,
+            "ymin": 657,
+            "xmax": 581,
+            "ymax": 677
+          },
+          "Text": "36"
+        },
+        {
+          "Coordinates": {
+            "xmin": 467,
+            "ymin": 723,
+            "xmax": 515,
+            "ymax": 743
+          },
+          "Text": "TotaL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 559,
+            "ymin": 723,
+            "xmax": 609,
+            "ymax": 743
+          },
+          "Text": "38 , 68"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 342,
+            "ymin": 858,
+            "xmax": 426,
+            "ymax": 882
+          },
+          "Text": "01/16/17"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 438,
+      "ymin": 654,
+      "xmax": 516,
+      "ymax": 678
+    },
+    {
+      "xmin": 467,
+      "ymin": 723,
+      "xmax": 515,
+      "ymax": 743
+    }
+  ],
+  "date": [
+    {
+      "xmin": 342,
+      "ymin": 858,
+      "xmax": 426,
+      "ymax": 882
+    }
+  ]
+}

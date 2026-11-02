@@ -1,0 +1,95 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\029.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\029.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 333,
+            "ymin": 219,
+            "xmax": 365,
+            "ymax": 235
+          },
+          "Text": "Total"
+        },
+        {
+          "Coordinates": {
+            "xmin": 247,
+            "ymin": 293,
+            "xmax": 363,
+            "ymax": 309
+          },
+          "Text": "Total Amount: 56.60"
+        },
+        {
+          "Coordinates": {
+            "xmin": 269,
+            "ymin": 329,
+            "xmax": 365,
+            "ymax": 345
+          },
+          "Text": "Nett Total: 56.60"
+        },
+        {
+          "Coordinates": {
+            "xmin": 317,
+            "ymin": 355,
+            "xmax": 365,
+            "ymax": 369
+          },
+          "Text": "Amount"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 149,
+            "ymin": 107,
+            "xmax": 257,
+            "ymax": 123
+          },
+          "Text": "20 Mar 2018 17.55"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 333,
+      "ymin": 219,
+      "xmax": 365,
+      "ymax": 235
+    },
+    {
+      "xmin": 247,
+      "ymin": 293,
+      "xmax": 363,
+      "ymax": 309
+    },
+    {
+      "xmin": 269,
+      "ymin": 329,
+      "xmax": 365,
+      "ymax": 345
+    },
+    {
+      "xmin": 317,
+      "ymin": 355,
+      "xmax": 365,
+      "ymax": 369
+    }
+  ],
+  "date": [
+    {
+      "xmin": 149,
+      "ymin": 107,
+      "xmax": 257,
+      "ymax": 123
+    }
+  ]
+}

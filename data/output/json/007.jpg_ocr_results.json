@@ -1,0 +1,107 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\007.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\007.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 132,
+            "ymin": 556,
+            "xmax": 398,
+            "ymax": 584
+          },
+          "Text": "Total Amt Incl GST @ 6%"
+        },
+        {
+          "Coordinates": {
+            "xmin": 440,
+            "ymin": 558,
+            "xmax": 490,
+            "ymax": 584
+          },
+          "Text": "7.95"
+        },
+        {
+          "Coordinates": {
+            "xmin": 210,
+            "ymin": 601,
+            "xmax": 398,
+            "ymax": 633
+          },
+          "Text": "Total Amt Payable"
+        },
+        {
+          "Coordinates": {
+            "xmin": 438,
+            "ymin": 604,
+            "xmax": 488,
+            "ymax": 630
+          },
+          "Text": "7.95"
+        },
+        {
+          "Coordinates": {
+            "xmin": 132,
+            "ymin": 781,
+            "xmax": 196,
+            "ymax": 820
+          },
+          "Text": "Total "
+        },
+        {
+          "Coordinates": {
+            "xmin": 376,
+            "ymin": 786,
+            "xmax": 428,
+            "ymax": 814
+          },
+          "Text": "7.50"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 260,
+            "ymin": 892,
+            "xmax": 518,
+            "ymax": 924
+          },
+          "Text": "31/12/2017 10.33.59 AM"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 132,
+      "ymin": 556,
+      "xmax": 398,
+      "ymax": 584
+    },
+    {
+      "xmin": 210,
+      "ymin": 601,
+      "xmax": 398,
+      "ymax": 633
+    },
+    {
+      "xmin": 132,
+      "ymin": 781,
+      "xmax": 196,
+      "ymax": 820
+    }
+  ],
+  "date": [
+    {
+      "xmin": 260,
+      "ymin": 892,
+      "xmax": 518,
+      "ymax": 924
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\vons_receipt.png",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\vons_receipt.png_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 29,
+            "ymin": 761,
+            "xmax": 87,
+            "ymax": 781
+          },
+          "Text": "Total"
+        },
+        {
+          "Coordinates": {
+            "xmin": 362,
+            "ymin": 756,
+            "xmax": 410,
+            "ymax": 780
+          },
+          "Text": "5.20"
+        },
+        {
+          "Coordinates": {
+            "xmin": 28,
+            "ymin": 778,
+            "xmax": 88,
+            "ymax": 802
+          },
+          "Text": "Total"
+        }
+      ],
+      "label": "total"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 29,
+      "ymin": 761,
+      "xmax": 87,
+      "ymax": 781
+    },
+    {
+      "xmin": 28,
+      "ymin": 778,
+      "xmax": 88,
+      "ymax": 802
+    }
+  ],
+  "date": []
+}

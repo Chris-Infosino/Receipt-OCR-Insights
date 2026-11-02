@@ -1,0 +1,128 @@
+filename,class,xmin,ymin,xmax,ymax,text
+016.jpg,date,466,572,518,598,Date
+016.jpg,date,556,570,677,606,15/03/2018
+016.jpg,total,559,628,678,658,AMOUNT
+016.jpg,total,110,812,176,842,Total
+016.jpg,amount,312,814,338,840,48
+016.jpg,total,109,877,329,913,SUB-TOTAL (EX)
+016.jpg,amount,572,884,654,914,120.00
+016.jpg,total,106,991,231,1032,TOTAL
+016.jpg,amount,541,1001,651,1041,127.20
+016.jpg,total,414,1286,526,1312,AMOUNT
+016.jpg,total,96,1430,190,1460,TOTAL
+016.jpg,amount,418,1436,500,1466,120.00
+021.jpg,potential datetime,135,103,243,121,13 Mar 2018 18.35
+021.jpg,total,319,215,351,231,Total
+021.jpg,total,235,337,263,351,Tota
+021.jpg,total,267,335,351,351,"Amount: 38,20"
+021.jpg,total,257,371,311,387,Neit Totae
+022.jpg,potential datetime,269,221,338,249,03/03/18
+022.jpg,total,29,413,101,433,SUBTOTAL;
+022.jpg,amount,294,404,340,428,"""3.80"
+022.jpg,total,160,672,244,696,Amount (FM)
+025.jpg,potential datetime,129,103,239,117,26 Mar 2018 18.14
+025.jpg,total,313,213,341,229,Tota
+025.jpg,total,227,331,343,347,Total Amount: 58.20
+025.jpg,total,247,365,343,383,Nett Total: 58.20
+025.jpg,total,295,393,343,409,Amount
+026.jpg,date,265,325,387,345,Date;   13/03/2018
+026.jpg,date,261,348,303,367,Time'
+026.jpg,date,309,349,369,367,"12.41,00"
+026.jpg,total,70,510,258,534,Total Sales ( Excluding GST)
+026.jpg,amount,303,513,345,533,67.92
+026.jpg,total,187,565,255,585,Total CST
+026.jpg,amount,313,567,345,585,4.08
+026.jpg,total,40,617,256,642,Total Sales (Inclueive of GEt)
+026.jpg,amount,301,619,343,639,72.00
+026.jpg,total,125,778,168,798,Total
+026.jpg,amount,227,781,269,797,67.82
+027.jpg,date,137,179,341,200,Date: 22-03-2018 04.01.20 FM
+027.jpg,total,301,261,345,277,TOTAL
+027.jpg,potential datetime,301,325,341,345,"6,50"
+027.jpg,potential datetime,299,471,339,489,"1,30"
+027.jpg,total,70,561,181,588,Total Amount
+027.jpg,amount,287,567,335,587,22.80
+028.jpg,potential datetime,139,93,249,111,"25 Ma; 2018 18,28"
+028.jpg,total,323,211,351,225,Total
+028.jpg,total,235,329,351,347,Total Amount: 38.50
+028.jpg,total,305,393,351,407,Amount
+029.jpg,potential datetime,149,107,257,123,20 Mar 2018 17.55
+029.jpg,total,333,219,365,235,Total
+029.jpg,total,247,293,363,309,Total Amount: 56.60
+029.jpg,total,269,329,365,345,Nett Total: 56.60
+029.jpg,total,317,355,365,369,Amount
+046.jpg,date,35,930,116,968,Date
+046.jpg,date,242,930,629,973,17/01/2017 01.31.27 PM
+046.jpg,total,646,1137,857,1180,AMOUNT TAX
+046.jpg,total,66,2067,465,2116,Sub Total (Exclusive GST )
+046.jpg,amount,689,2073,786,2114,44.00
+046.jpg,total,343,2492,542,2537,Amount(RM)
+055.jpg,date,39,721,119,757,Date
+055.jpg,date,284,720,559,757,08/02/2018 12.42
+055.jpg,total,211,983,341,1021,Subtotal
+055.jpg,amount,553,985,645,1021,10.50
+055.jpg,total,91,1071,357,1109,Total Inci of GST
+055.jpg,amount,553,1073,645,1109,10.50
+055.jpg,total,328,1287,531,1325,Amount(RM)
+056.jpg,potential datetime,290,718,565,755,02/02/2018 10 06
+056.jpg,total,217,981,345,1017,Subtotal
+056.jpg,amount,576,984,650,1016,"7,00"
+056.jpg,total,97,1067,361,1105,Total Incl of GST
+056.jpg,amount,577,1069,651,1105,7.00
+056.jpg,total,333,1285,535,1323,Amount(RM}
+085.jpg,date,59,699,130,739,Date:
+085.jpg,date,144,702,318,734,25-03-18 18.34
+085.jpg,total,381,799,507,835,Amount (RH)
+085.jpg,total,66,1256,168,1288,Tota] RM
+085.jpg,amount,444,1256,510,1286,"18,70"
+085.jpg,total,196,1456,284,1488,Amt (RM)
+085.jpg,total,430,1456,544,1488,Tota] (RM)
+085.jpg,potential datetime,362,1504,416,1536,"1,06"
+088.jpg,potential datetime,54,700,350,748,19/02/2018 17;43
+088.jpg,potential datetime,779,1245,875,1287,"15,57"
+088.jpg,total,124,1373,305,1421,TOTAL
+088.jpg,amount,657,1379,761,1421,181
+088.jpg,total,583,1691,697,1731,Amount
+088.jpg,potential datetime,294,1994,662,2045,Bi71 Close ; 19:08:04
+091.jpg,potential datetime,46,826,588,876,Inv DT : 04/01/2018 12;29;18 PM
+091.jpg,total,752,914,870,962,AMOUNT
+091.jpg,total,97,1254,266,1299,SUB   TOTAL
+091.jpg,amount,769,1259,869,1303,"39, 80"
+091.jpg,total,98,1367,269,1416,NET   TOTAL
+091.jpg,amount,766,1344,874,1422,"90,80"
+091.jpg,total,595,1615,707,1655,Amount
+091.jpg,potential datetime,789,1657,869,1699,"2 ,26"
+093.jpg,date,51,695,131,739,DATE
+093.jpg,date,199,694,540,742,1/8/2018 9:42.41 AM
+093.jpg,total,150,1294,248,1338,TOTAL
+093.jpg,amount,589,1296,689,1340,34.80
+093.jpg,total,100,1492,333,1537,Total PAYNENT
+093.jpg,amount,591,1496,689,1537,34.80
+093.jpg,total,250,1841,346,1885,TOTAL
+093.jpg,total,99,2433,623,2481,Total Sales Inclusive GST @ 67
+099.jpg,date,597,901,878,943,"Date:"" 07/03/2018"
+099.jpg,date,593,953,686,995,Time;
+099.jpg,date,699,955,841,993,08.31.00
+099.jpg,total,670,1108,787,1148,Amount
+099.jpg,total,81,1343,165,1381,Total
+099.jpg,amount,299,1349,319,1377,8
+099.jpg,total,160,1419,588,1470,Total Sales (Excluding GST)
+099.jpg,amount,699,1427,793,1465,86.00
+099.jpg,total,94,1651,592,1701,Total Salee (Inclusive of GST)
+099.jpg,amount,697,1659,793,1697,91.16
+099.jpg,total,469,1917,627,1959,Amt (RM
+099.jpg,total,294,2008,388,2049,Total
+099.jpg,amount,529,2013,625,2049,86.00
+20.png,total,365,165,403,185,TOTAL
+20.png,total,15,219,199,239,COLGATE  TOTAL   WHTNING   TPST
+20.png,total,14,236,200,260,COLGATE TOTAL WHTNING  TPST
+20.png,total,15,255,199,275,COLGATE  TOTAL   WHTNING   TPST
+20.png,total,14,272,200,296,COLGATE  TOTAL  WhTNING  TPST
+20.png,total,15,291,199,311,COLGATE   TOTAL   WHTNING   TPST
+20.png,total,173,619,241,639,Sub Total
+20.png,amount,331,619,377,639,824. 00
+20.png,total,175,657,213,675,Tota]
+20.png,potential datetime,227,873,323,893,9/17/22 17:08
+vons_receipt.png,total,29,761,87,781,Total
+vons_receipt.png,amount,362,756,410,780,5.20
+vons_receipt.png,total,28,778,88,802,Total

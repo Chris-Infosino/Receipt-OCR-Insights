@@ -1,0 +1,104 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\008.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\008.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 470,
+            "ymin": 560,
+            "xmax": 532,
+            "ymax": 588
+          },
+          "Text": "Amt."
+        },
+        {
+          "Coordinates": {
+            "xmin": 69,
+            "ymin": 679,
+            "xmax": 211,
+            "ymax": 715
+          },
+          "Text": "Total @ty"
+        },
+        {
+          "Coordinates": {
+            "xmin": 38,
+            "ymin": 736,
+            "xmax": 276,
+            "ymax": 766
+          },
+          "Text": "TOTAL AMOUNT"
+        },
+        {
+          "Coordinates": {
+            "xmin": 470,
+            "ymin": 732,
+            "xmax": 540,
+            "ymax": 762
+          },
+          "Text": "8.00"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 34,
+            "ymin": 472,
+            "xmax": 194,
+            "ymax": 502
+          },
+          "Text": "08/01/2018"
+        },
+        {
+          "Coordinates": {
+            "xmin": 36,
+            "ymin": 508,
+            "xmax": 164,
+            "ymax": 538
+          },
+          "Text": "11:07.06"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 470,
+      "ymin": 560,
+      "xmax": 532,
+      "ymax": 588
+    },
+    {
+      "xmin": 69,
+      "ymin": 679,
+      "xmax": 211,
+      "ymax": 715
+    },
+    {
+      "xmin": 38,
+      "ymin": 736,
+      "xmax": 276,
+      "ymax": 766
+    }
+  ],
+  "date": [
+    {
+      "xmin": 34,
+      "ymin": 472,
+      "xmax": 194,
+      "ymax": 502
+    },
+    {
+      "xmin": 36,
+      "ymin": 508,
+      "xmax": 164,
+      "ymax": 538
+    }
+  ]
+}

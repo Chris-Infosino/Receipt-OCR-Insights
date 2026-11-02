@@ -1,0 +1,128 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\receipt_05.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\receipt_05.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 365,
+            "ymin": 295,
+            "xmax": 405,
+            "ymax": 311
+          },
+          "Text": "Tota"
+        },
+        {
+          "Coordinates": {
+            "xmin": 443,
+            "ymin": 293,
+            "xmax": 489,
+            "ymax": 311
+          },
+          "Text": "50.60"
+        },
+        {
+          "Coordinates": {
+            "xmin": 365,
+            "ymin": 295,
+            "xmax": 405,
+            "ymax": 311
+          },
+          "Text": "Tota"
+        },
+        {
+          "Coordinates": {
+            "xmin": 443,
+            "ymin": 293,
+            "xmax": 489,
+            "ymax": 311
+          },
+          "Text": "50.60"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 291,
+            "ymin": 449,
+            "xmax": 317,
+            "ymax": 465
+          },
+          "Text": "19-"
+        },
+        {
+          "Coordinates": {
+            "xmin": 359,
+            "ymin": 593,
+            "xmax": 427,
+            "ymax": 609
+          },
+          "Text": "19 22: 40"
+        },
+        {
+          "Coordinates": {
+            "xmin": 291,
+            "ymin": 449,
+            "xmax": 317,
+            "ymax": 465
+          },
+          "Text": "19-"
+        },
+        {
+          "Coordinates": {
+            "xmin": 359,
+            "ymin": 593,
+            "xmax": 427,
+            "ymax": 609
+          },
+          "Text": "19 22: 40"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 365,
+      "ymin": 295,
+      "xmax": 405,
+      "ymax": 311
+    },
+    {
+      "xmin": 365,
+      "ymin": 295,
+      "xmax": 405,
+      "ymax": 311
+    }
+  ],
+  "date": [
+    {
+      "xmin": 291,
+      "ymin": 449,
+      "xmax": 317,
+      "ymax": 465
+    },
+    {
+      "xmin": 359,
+      "ymin": 593,
+      "xmax": 427,
+      "ymax": 609
+    },
+    {
+      "xmin": 291,
+      "ymin": 449,
+      "xmax": 317,
+      "ymax": 465
+    },
+    {
+      "xmin": 359,
+      "ymin": 593,
+      "xmax": 427,
+      "ymax": 609
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\001.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\001.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 263,
+            "ymin": 431,
+            "xmax": 319,
+            "ymax": 449
+          },
+          "Text": "Amount"
+        },
+        {
+          "Coordinates": {
+            "xmin": 119,
+            "ymin": 539,
+            "xmax": 153,
+            "ymax": 559
+          },
+          "Text": "Tota"
+        },
+        {
+          "Coordinates": {
+            "xmin": 161,
+            "ymin": 541,
+            "xmax": 221,
+            "ymax": 559
+          },
+          "Text": "Amount:"
+        },
+        {
+          "Coordinates": {
+            "xmin": 267,
+            "ymin": 539,
+            "xmax": 317,
+            "ymax": 559
+          },
+          "Text": "170.00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 157,
+            "ymin": 587,
+            "xmax": 223,
+            "ymax": 607
+          },
+          "Text": "TOTAL:"
+        },
+        {
+          "Coordinates": {
+            "xmin": 253,
+            "ymin": 587,
+            "xmax": 317,
+            "ymax": 607
+          },
+          "Text": "170.00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 263,
+            "ymin": 431,
+            "xmax": 319,
+            "ymax": 449
+          },
+          "Text": "Amount"
+        },
+        {
+          "Coordinates": {
+            "xmin": 119,
+            "ymin": 539,
+            "xmax": 153,
+            "ymax": 559
+          },
+          "Text": "Tota"
+        },
+        {
+          "Coordinates": {
+            "xmin": 161,
+            "ymin": 541,
+            "xmax": 221,
+            "ymax": 559
+          },
+          "Text": "Amount:"
+        },
+        {
+          "Coordinates": {
+            "xmin": 267,
+            "ymin": 539,
+            "xmax": 317,
+            "ymax": 559
+          },
+          "Text": "170.00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 157,
+            "ymin": 587,
+            "xmax": 223,
+            "ymax": 607
+          },
+          "Text": "TOTAL:"
+        },
+        {
+          "Coordinates": {
+            "xmin": 253,
+            "ymin": 587,
+            "xmax": 317,
+            "ymax": 607
+          },
+          "Text": "170.00"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 131,
+            "ymin": 345,
+            "xmax": 317,
+            "ymax": 365
+          },
+          "Text": "02/01/2019 2*47:14 PM"
+        },
+        {
+          "Coordinates": {
+            "xmin": 131,
+            "ymin": 345,
+            "xmax": 317,
+            "ymax": 365
+          },
+          "Text": "02/01/2019 2*47:14 PM"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 263,
+      "ymin": 431,
+      "xmax": 319,
+      "ymax": 449
+    },
+    {
+      "xmin": 119,
+      "ymin": 539,
+      "xmax": 153,
+      "ymax": 559
+    },
+    {
+      "xmin": 161,
+      "ymin": 541,
+      "xmax": 221,
+      "ymax": 559
+    },
+    {
+      "xmin": 157,
+      "ymin": 587,
+      "xmax": 223,
+      "ymax": 607
+    },
+    {
+      "xmin": 263,
+      "ymin": 431,
+      "xmax": 319,
+      "ymax": 449
+    },
+    {
+      "xmin": 119,
+      "ymin": 539,
+      "xmax": 153,
+      "ymax": 559
+    },
+    {
+      "xmin": 161,
+      "ymin": 541,
+      "xmax": 221,
+      "ymax": 559
+    },
+    {
+      "xmin": 157,
+      "ymin": 587,
+      "xmax": 223,
+      "ymax": 607
+    }
+  ],
+  "date": [
+    {
+      "xmin": 131,
+      "ymin": 345,
+      "xmax": 317,
+      "ymax": 365
+    },
+    {
+      "xmin": 131,
+      "ymin": 345,
+      "xmax": 317,
+      "ymax": 365
+    }
+  ]
+}

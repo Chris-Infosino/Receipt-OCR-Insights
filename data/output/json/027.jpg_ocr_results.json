@@ -1,0 +1,104 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\027.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\027.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 301,
+            "ymin": 261,
+            "xmax": 345,
+            "ymax": 277
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 70,
+            "ymin": 561,
+            "xmax": 181,
+            "ymax": 588
+          },
+          "Text": "Total Amount"
+        },
+        {
+          "Coordinates": {
+            "xmin": 287,
+            "ymin": 567,
+            "xmax": 335,
+            "ymax": 587
+          },
+          "Text": "22.80"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 137,
+            "ymin": 179,
+            "xmax": 341,
+            "ymax": 200
+          },
+          "Text": "Date: 22-03-2018 04.01.20 FM"
+        },
+        {
+          "Coordinates": {
+            "xmin": 301,
+            "ymin": 325,
+            "xmax": 341,
+            "ymax": 345
+          },
+          "Text": "6,50"
+        },
+        {
+          "Coordinates": {
+            "xmin": 299,
+            "ymin": 471,
+            "xmax": 339,
+            "ymax": 489
+          },
+          "Text": "1,30"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 301,
+      "ymin": 261,
+      "xmax": 345,
+      "ymax": 277
+    },
+    {
+      "xmin": 70,
+      "ymin": 561,
+      "xmax": 181,
+      "ymax": 588
+    }
+  ],
+  "date": [
+    {
+      "xmin": 137,
+      "ymin": 179,
+      "xmax": 341,
+      "ymax": 200
+    },
+    {
+      "xmin": 301,
+      "ymin": 325,
+      "xmax": 341,
+      "ymax": 345
+    },
+    {
+      "xmin": 299,
+      "ymin": 471,
+      "xmax": 339,
+      "ymax": 489
+    }
+  ]
+}

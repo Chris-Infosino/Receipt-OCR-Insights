@@ -1,0 +1,140 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\012.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\012.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 79,
+            "ymin": 1411,
+            "xmax": 237,
+            "ymax": 1449
+          },
+          "Text": "Sub Total"
+        },
+        {
+          "Coordinates": {
+            "xmin": 77,
+            "ymin": 1563,
+            "xmax": 151,
+            "ymax": 1603
+          },
+          "Text": "TOT"
+        },
+        {
+          "Coordinates": {
+            "xmin": 311,
+            "ymin": 2055,
+            "xmax": 481,
+            "ymax": 2095
+          },
+          "Text": "Amount (RM)"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 282,
+            "ymin": 612,
+            "xmax": 459,
+            "ymax": 655
+          },
+          "Text": "20/11/2017"
+        },
+        {
+          "Coordinates": {
+            "xmin": 78,
+            "ymin": 636,
+            "xmax": 458,
+            "ymax": 689
+          },
+          "Text": "Bill Start: 20/11/2017"
+        },
+        {
+          "Coordinates": {
+            "xmin": 465,
+            "ymin": 653,
+            "xmax": 605,
+            "ymax": 689
+          },
+          "Text": "03:57:01"
+        },
+        {
+          "Coordinates": {
+            "xmin": 75,
+            "ymin": 1800,
+            "xmax": 672,
+            "ymax": 1852
+          },
+          "Text": "Closed Bill: 20/11/2017 04:01:23 PM"
+        },
+        {
+          "Coordinates": {
+            "xmin": 161,
+            "ymin": 608,
+            "xmax": 245,
+            "ymax": 652
+          },
+          "Text": "Date"
+        }
+      ],
+      "label": "date"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 79,
+      "ymin": 1411,
+      "xmax": 237,
+      "ymax": 1449
+    },
+    {
+      "xmin": 77,
+      "ymin": 1563,
+      "xmax": 151,
+      "ymax": 1603
+    },
+    {
+      "xmin": 311,
+      "ymin": 2055,
+      "xmax": 481,
+      "ymax": 2095
+    }
+  ],
+  "date": [
+    {
+      "xmin": 282,
+      "ymin": 612,
+      "xmax": 459,
+      "ymax": 655
+    },
+    {
+      "xmin": 78,
+      "ymin": 636,
+      "xmax": 458,
+      "ymax": 689
+    },
+    {
+      "xmin": 465,
+      "ymin": 653,
+      "xmax": 605,
+      "ymax": 689
+    },
+    {
+      "xmin": 75,
+      "ymin": 1800,
+      "xmax": 672,
+      "ymax": 1852
+    },
+    {
+      "xmin": 161,
+      "ymin": 608,
+      "xmax": 245,
+      "ymax": 652
+    }
+  ]
+}

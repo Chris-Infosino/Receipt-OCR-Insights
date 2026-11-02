@@ -1,0 +1,80 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\020.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\020.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 503,
+            "ymin": 588,
+            "xmax": 619,
+            "ymax": 606
+          },
+          "Text": "Total Amourt; SB.20"
+        },
+        {
+          "Coordinates": {
+            "xmin": 571,
+            "ymin": 651,
+            "xmax": 619,
+            "ymax": 665
+          },
+          "Text": "Amount"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 405,
+            "ymin": 353,
+            "xmax": 515,
+            "ymax": 371
+          },
+          "Text": "07 Mar 2018 18.22"
+        },
+        {
+          "Coordinates": {
+            "xmin": 583,
+            "ymin": 509,
+            "xmax": 619,
+            "ymax": 525
+          },
+          "Text": "57,10"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 503,
+      "ymin": 588,
+      "xmax": 619,
+      "ymax": 606
+    },
+    {
+      "xmin": 571,
+      "ymin": 651,
+      "xmax": 619,
+      "ymax": 665
+    }
+  ],
+  "date": [
+    {
+      "xmin": 405,
+      "ymin": 353,
+      "xmax": 515,
+      "ymax": 371
+    },
+    {
+      "xmin": 583,
+      "ymin": 509,
+      "xmax": 619,
+      "ymax": 525
+    }
+  ]
+}

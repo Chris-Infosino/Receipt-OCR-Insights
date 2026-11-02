@@ -1,0 +1,164 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\20.png",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\20.png_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 365,
+            "ymin": 165,
+            "xmax": 403,
+            "ymax": 185
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 15,
+            "ymin": 219,
+            "xmax": 199,
+            "ymax": 239
+          },
+          "Text": "COLGATE  TOTAL   WHTNING   TPST"
+        },
+        {
+          "Coordinates": {
+            "xmin": 14,
+            "ymin": 236,
+            "xmax": 200,
+            "ymax": 260
+          },
+          "Text": "COLGATE TOTAL WHTNING  TPST"
+        },
+        {
+          "Coordinates": {
+            "xmin": 15,
+            "ymin": 255,
+            "xmax": 199,
+            "ymax": 275
+          },
+          "Text": "COLGATE  TOTAL   WHTNING   TPST"
+        },
+        {
+          "Coordinates": {
+            "xmin": 14,
+            "ymin": 272,
+            "xmax": 200,
+            "ymax": 296
+          },
+          "Text": "COLGATE  TOTAL  WhTNING  TPST"
+        },
+        {
+          "Coordinates": {
+            "xmin": 15,
+            "ymin": 291,
+            "xmax": 199,
+            "ymax": 311
+          },
+          "Text": "COLGATE   TOTAL   WHTNING   TPST"
+        },
+        {
+          "Coordinates": {
+            "xmin": 173,
+            "ymin": 619,
+            "xmax": 241,
+            "ymax": 639
+          },
+          "Text": "Sub Total"
+        },
+        {
+          "Coordinates": {
+            "xmin": 331,
+            "ymin": 619,
+            "xmax": 377,
+            "ymax": 639
+          },
+          "Text": "824. 00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 175,
+            "ymin": 657,
+            "xmax": 213,
+            "ymax": 675
+          },
+          "Text": "Tota]"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 227,
+            "ymin": 873,
+            "xmax": 323,
+            "ymax": 893
+          },
+          "Text": "9/17/22 17:08"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 365,
+      "ymin": 165,
+      "xmax": 403,
+      "ymax": 185
+    },
+    {
+      "xmin": 15,
+      "ymin": 219,
+      "xmax": 199,
+      "ymax": 239
+    },
+    {
+      "xmin": 14,
+      "ymin": 236,
+      "xmax": 200,
+      "ymax": 260
+    },
+    {
+      "xmin": 15,
+      "ymin": 255,
+      "xmax": 199,
+      "ymax": 275
+    },
+    {
+      "xmin": 14,
+      "ymin": 272,
+      "xmax": 200,
+      "ymax": 296
+    },
+    {
+      "xmin": 15,
+      "ymin": 291,
+      "xmax": 199,
+      "ymax": 311
+    },
+    {
+      "xmin": 173,
+      "ymin": 619,
+      "xmax": 241,
+      "ymax": 639
+    },
+    {
+      "xmin": 175,
+      "ymin": 657,
+      "xmax": 213,
+      "ymax": 675
+    }
+  ],
+  "date": [
+    {
+      "xmin": 227,
+      "ymin": 873,
+      "xmax": 323,
+      "ymax": 893
+    }
+  ]
+}

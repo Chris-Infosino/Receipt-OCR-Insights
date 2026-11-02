@@ -1,0 +1,176 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\016.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\016.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 559,
+            "ymin": 628,
+            "xmax": 678,
+            "ymax": 658
+          },
+          "Text": "AMOUNT"
+        },
+        {
+          "Coordinates": {
+            "xmin": 110,
+            "ymin": 812,
+            "xmax": 176,
+            "ymax": 842
+          },
+          "Text": "Total"
+        },
+        {
+          "Coordinates": {
+            "xmin": 312,
+            "ymin": 814,
+            "xmax": 338,
+            "ymax": 840
+          },
+          "Text": "48"
+        },
+        {
+          "Coordinates": {
+            "xmin": 109,
+            "ymin": 877,
+            "xmax": 329,
+            "ymax": 913
+          },
+          "Text": "SUB-TOTAL (EX)"
+        },
+        {
+          "Coordinates": {
+            "xmin": 572,
+            "ymin": 884,
+            "xmax": 654,
+            "ymax": 914
+          },
+          "Text": "120.00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 106,
+            "ymin": 991,
+            "xmax": 231,
+            "ymax": 1032
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 541,
+            "ymin": 1001,
+            "xmax": 651,
+            "ymax": 1041
+          },
+          "Text": "127.20"
+        },
+        {
+          "Coordinates": {
+            "xmin": 414,
+            "ymin": 1286,
+            "xmax": 526,
+            "ymax": 1312
+          },
+          "Text": "AMOUNT"
+        },
+        {
+          "Coordinates": {
+            "xmin": 96,
+            "ymin": 1430,
+            "xmax": 190,
+            "ymax": 1460
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 418,
+            "ymin": 1436,
+            "xmax": 500,
+            "ymax": 1466
+          },
+          "Text": "120.00"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 466,
+            "ymin": 572,
+            "xmax": 518,
+            "ymax": 598
+          },
+          "Text": "Date"
+        },
+        {
+          "Coordinates": {
+            "xmin": 556,
+            "ymin": 570,
+            "xmax": 677,
+            "ymax": 606
+          },
+          "Text": "15/03/2018"
+        }
+      ],
+      "label": "date"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 559,
+      "ymin": 628,
+      "xmax": 678,
+      "ymax": 658
+    },
+    {
+      "xmin": 110,
+      "ymin": 812,
+      "xmax": 176,
+      "ymax": 842
+    },
+    {
+      "xmin": 109,
+      "ymin": 877,
+      "xmax": 329,
+      "ymax": 913
+    },
+    {
+      "xmin": 106,
+      "ymin": 991,
+      "xmax": 231,
+      "ymax": 1032
+    },
+    {
+      "xmin": 414,
+      "ymin": 1286,
+      "xmax": 526,
+      "ymax": 1312
+    },
+    {
+      "xmin": 96,
+      "ymin": 1430,
+      "xmax": 190,
+      "ymax": 1460
+    }
+  ],
+  "date": [
+    {
+      "xmin": 466,
+      "ymin": 572,
+      "xmax": 518,
+      "ymax": 598
+    },
+    {
+      "xmin": 556,
+      "ymin": 570,
+      "xmax": 677,
+      "ymax": 606
+    }
+  ]
+}

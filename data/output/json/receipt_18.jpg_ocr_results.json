@@ -1,0 +1,143 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\receipt_18.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\receipt_18.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 313,
+            "ymin": 537,
+            "xmax": 403,
+            "ymax": 561
+          },
+          "Text": "SUBTOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 454,
+            "ymin": 538,
+            "xmax": 516,
+            "ymax": 562
+          },
+          "Text": "21.74"
+        },
+        {
+          "Coordinates": {
+            "xmin": 346,
+            "ymin": 600,
+            "xmax": 404,
+            "ymax": 624
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 454,
+            "ymin": 600,
+            "xmax": 516,
+            "ymax": 624
+          },
+          "Text": "23.19"
+        },
+        {
+          "Coordinates": {
+            "xmin": 224,
+            "ymin": 728,
+            "xmax": 384,
+            "ymax": 754
+          },
+          "Text": "TOTAL   PURCHASE"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 208,
+            "ymin": 970,
+            "xmax": 306,
+            "ymax": 994
+          },
+          "Text": "11/13/17"
+        },
+        {
+          "Coordinates": {
+            "xmin": 342,
+            "ymin": 970,
+            "xmax": 440,
+            "ymax": 996
+          },
+          "Text": "12:34:04"
+        },
+        {
+          "Coordinates": {
+            "xmin": 189,
+            "ymin": 1214,
+            "xmax": 290,
+            "ymax": 1244
+          },
+          "Text": "11/13/17"
+        },
+        {
+          "Coordinates": {
+            "xmin": 340,
+            "ymin": 1218,
+            "xmax": 438,
+            "ymax": 1246
+          },
+          "Text": "12:34:11"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 313,
+      "ymin": 537,
+      "xmax": 403,
+      "ymax": 561
+    },
+    {
+      "xmin": 346,
+      "ymin": 600,
+      "xmax": 404,
+      "ymax": 624
+    },
+    {
+      "xmin": 224,
+      "ymin": 728,
+      "xmax": 384,
+      "ymax": 754
+    }
+  ],
+  "date": [
+    {
+      "xmin": 208,
+      "ymin": 970,
+      "xmax": 306,
+      "ymax": 994
+    },
+    {
+      "xmin": 342,
+      "ymin": 970,
+      "xmax": 440,
+      "ymax": 996
+    },
+    {
+      "xmin": 189,
+      "ymin": 1214,
+      "xmax": 290,
+      "ymax": 1244
+    },
+    {
+      "xmin": 340,
+      "ymin": 1218,
+      "xmax": 438,
+      "ymax": 1246
+    }
+  ]
+}

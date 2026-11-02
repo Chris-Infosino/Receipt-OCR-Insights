@@ -1,0 +1,200 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\017.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\017.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 727,
+            "ymin": 841,
+            "xmax": 903,
+            "ymax": 881
+          },
+          "Text": "AMOUNT"
+        },
+        {
+          "Coordinates": {
+            "xmin": 51,
+            "ymin": 1113,
+            "xmax": 145,
+            "ymax": 1157
+          },
+          "Text": "Total"
+        },
+        {
+          "Coordinates": {
+            "xmin": 791,
+            "ymin": 1123,
+            "xmax": 869,
+            "ymax": 1163
+          },
+          "Text": "1.00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 52,
+            "ymin": 1209,
+            "xmax": 376,
+            "ymax": 1260
+          },
+          "Text": "SUB-TOTAL (EX)"
+        },
+        {
+          "Coordinates": {
+            "xmin": 789,
+            "ymin": 1221,
+            "xmax": 867,
+            "ymax": 1261
+          },
+          "Text": "1,00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 50,
+            "ymin": 1269,
+            "xmax": 281,
+            "ymax": 1314
+          },
+          "Text": "TOTAL TAY"
+        },
+        {
+          "Coordinates": {
+            "xmin": 785,
+            "ymin": 1281,
+            "xmax": 867,
+            "ymax": 1321
+          },
+          "Text": "0.06"
+        },
+        {
+          "Coordinates": {
+            "xmin": 48,
+            "ymin": 1386,
+            "xmax": 230,
+            "ymax": 1436
+          },
+          "Text": "TOTAL"
+        },
+        {
+          "Coordinates": {
+            "xmin": 756,
+            "ymin": 1398,
+            "xmax": 864,
+            "ymax": 1454
+          },
+          "Text": "1.05"
+        },
+        {
+          "Coordinates": {
+            "xmin": 505,
+            "ymin": 1823,
+            "xmax": 679,
+            "ymax": 1863
+          },
+          "Text": "AMOUNT"
+        },
+        {
+          "Coordinates": {
+            "xmin": 35,
+            "ymin": 2045,
+            "xmax": 189,
+            "ymax": 2083
+          },
+          "Text": "TOTAL :"
+        },
+        {
+          "Coordinates": {
+            "xmin": 559,
+            "ymin": 2051,
+            "xmax": 637,
+            "ymax": 2091
+          },
+          "Text": "1,00"
+        }
+      ],
+      "label": "amount"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 583,
+            "ymin": 753,
+            "xmax": 667,
+            "ymax": 798
+          },
+          "Text": "Date"
+        },
+        {
+          "Coordinates": {
+            "xmin": 701,
+            "ymin": 755,
+            "xmax": 899,
+            "ymax": 797
+          },
+          "Text": "29/01/2018"
+        }
+      ],
+      "label": "date"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 727,
+      "ymin": 841,
+      "xmax": 903,
+      "ymax": 881
+    },
+    {
+      "xmin": 51,
+      "ymin": 1113,
+      "xmax": 145,
+      "ymax": 1157
+    },
+    {
+      "xmin": 52,
+      "ymin": 1209,
+      "xmax": 376,
+      "ymax": 1260
+    },
+    {
+      "xmin": 50,
+      "ymin": 1269,
+      "xmax": 281,
+      "ymax": 1314
+    },
+    {
+      "xmin": 48,
+      "ymin": 1386,
+      "xmax": 230,
+      "ymax": 1436
+    },
+    {
+      "xmin": 505,
+      "ymin": 1823,
+      "xmax": 679,
+      "ymax": 1863
+    },
+    {
+      "xmin": 35,
+      "ymin": 2045,
+      "xmax": 189,
+      "ymax": 2083
+    }
+  ],
+  "date": [
+    {
+      "xmin": 583,
+      "ymin": 753,
+      "xmax": 667,
+      "ymax": 798
+    },
+    {
+      "xmin": 701,
+      "ymin": 755,
+      "xmax": 899,
+      "ymax": 797
+    }
+  ]
+}

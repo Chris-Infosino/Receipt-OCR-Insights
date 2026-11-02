@@ -1,0 +1,104 @@
+{
+  "image_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\046.jpg",
+  "info_json_path": "C:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\046.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 646,
+            "ymin": 1137,
+            "xmax": 857,
+            "ymax": 1180
+          },
+          "Text": "AMOUNT TAX"
+        },
+        {
+          "Coordinates": {
+            "xmin": 66,
+            "ymin": 2067,
+            "xmax": 465,
+            "ymax": 2116
+          },
+          "Text": "Sub Total (Exclusive GST )"
+        },
+        {
+          "Coordinates": {
+            "xmin": 689,
+            "ymin": 2073,
+            "xmax": 786,
+            "ymax": 2114
+          },
+          "Text": "44.00"
+        },
+        {
+          "Coordinates": {
+            "xmin": 343,
+            "ymin": 2492,
+            "xmax": 542,
+            "ymax": 2537
+          },
+          "Text": "Amount(RM)"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 35,
+            "ymin": 930,
+            "xmax": 116,
+            "ymax": 968
+          },
+          "Text": "Date"
+        },
+        {
+          "Coordinates": {
+            "xmin": 242,
+            "ymin": 930,
+            "xmax": 629,
+            "ymax": 973
+          },
+          "Text": "17/01/2017 01.31.27 PM"
+        }
+      ],
+      "label": "date"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 646,
+      "ymin": 1137,
+      "xmax": 857,
+      "ymax": 1180
+    },
+    {
+      "xmin": 66,
+      "ymin": 2067,
+      "xmax": 465,
+      "ymax": 2116
+    },
+    {
+      "xmin": 343,
+      "ymin": 2492,
+      "xmax": 542,
+      "ymax": 2537
+    }
+  ],
+  "date": [
+    {
+      "xmin": 35,
+      "ymin": 930,
+      "xmax": 116,
+      "ymax": 968
+    },
+    {
+      "xmin": 242,
+      "ymin": 930,
+      "xmax": 629,
+      "ymax": 973
+    }
+  ]
+}

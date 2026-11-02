@@ -1,0 +1,89 @@
+{
+  "image_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\input\\jpg\\003.jpg",
+  "info_json_path": "c:\\Users\\chris\\Documents\\python\\Test\\data\\output\\json\\003.jpg_ocr_results.json",
+  "important_words": [
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 68,
+            "ymin": 810,
+            "xmax": 290,
+            "ymax": 842
+          },
+          "Text": "Tota) RM inc GST"
+        },
+        {
+          "Coordinates": {
+            "xmin": 508,
+            "ymin": 808,
+            "xmax": 568,
+            "ymax": 840
+          },
+          "Text": "4.90"
+        },
+        {
+          "Coordinates": {
+            "xmin": 240,
+            "ymin": 970,
+            "xmax": 326,
+            "ymax": 1000
+          },
+          "Text": "Amount"
+        }
+      ],
+      "label": "total"
+    },
+    {
+      "words": [
+        {
+          "Coordinates": {
+            "xmin": 25,
+            "ymin": 585,
+            "xmax": 169,
+            "ymax": 621
+          },
+          "Text": "01/02/2018"
+        },
+        {
+          "Coordinates": {
+            "xmin": 200,
+            "ymin": 586,
+            "xmax": 342,
+            "ymax": 618
+          },
+          "Text": "4,43;17 PH"
+        }
+      ],
+      "label": "potential datetime"
+    }
+  ],
+  "total": [
+    {
+      "xmin": 68,
+      "ymin": 810,
+      "xmax": 290,
+      "ymax": 842
+    },
+    {
+      "xmin": 240,
+      "ymin": 970,
+      "xmax": 326,
+      "ymax": 1000
+    }
+  ],
+  "date": [
+    {
+      "xmin": 25,
+      "ymin": 585,
+      "xmax": 169,
+      "ymax": 621
+    },
+    {
+      "xmin": 200,
+      "ymin": 586,
+      "xmax": 342,
+      "ymax": 618
+    }
+  ]
+}
