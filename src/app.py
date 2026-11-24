@@ -23,6 +23,8 @@ success_area = st.empty()
 with st.sidebar:
     st.header("Select the receipt you want to analyze")
     st.write("You can upload a receipt of your own or use one from the dataset.")
+    
+    preprocess_flag = st.toggle("Preprocess receipt for improved confidence")
        
     with st.form("Receipt file selection", clear_on_submit=True):
         st.markdown("**Select a receipt for me**")  
@@ -30,7 +32,7 @@ with st.sidebar:
             "Click here to use a random receipt", 
             key ='RandomImage',
             ):
-            select_random_receipt(image_display_area, text_feedback_area, processing_progress, success_area)
+            select_random_receipt(image_display_area, text_feedback_area, processing_progress, success_area, preprocess_flag)
 
         st.space("small")
 
@@ -44,4 +46,4 @@ with st.sidebar:
             "Process selected receipt",
             key = "uploaded_file",
             ):
-            use_uploaded_receipt(image_display_area, text_feedback_area, processing_progress, success_area, uploaded_file)
+            use_uploaded_receipt(image_display_area, text_feedback_area, processing_progress, success_area, uploaded_file, preprocess_flag)

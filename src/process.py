@@ -5,18 +5,28 @@ import matplotlib.pyplot as plt
 
 from reader import extract_text
 from draw import draw_annotations
+from preprocess import preprocess_image
 from annotate import create_csv, get_json_details, create_json_file
 from constants import OUTPUT_CSV_FILE_PATH, OUTPUT_JSON_DIR, OUTPUT_IMAGES_DIR
 
-def process_receipt(image_container, text_container, progress_container, success_container, file_to_process, filename):
+def process_receipt(image_container, text_container, progress_container, success_container, file_to_process, filename, preprocess_flag):
     """Core process to analyze receipt, annotate important information, and provide user feedback."""
     
     text_container.update(label="Processing image", state="running", expanded=True)
     progress_container.progress(10)
     
-    text_container.write("Extracting text from image")
-    progress_container.progress(20)
-    extracted_data = extract_text(file_to_process, filename)
+    if preprocess_flag == True:
+        text_container.write("Performing preprocessing on image")
+        progress_container.progress(15)
+        preprocessed_image = preprocess_image(file_to_process)
+        
+        text_container.write("Extracting text from image")
+        progress_container.progress(20)
+        extracted_data = extract_text(preprocessed_image, filename, preprocess_flag)
+    else:
+        text_container.write("Extracting text from image")
+        progress_container.progress(20)
+        extracted_data = extract_text(file_to_process, filename, preprocess_flag)
     
     text_container.write("Identifying key information from image")
     progress_container.progress(50)

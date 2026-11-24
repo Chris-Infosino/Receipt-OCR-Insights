@@ -24,7 +24,9 @@ streamlit run src/app.py
 This will start the local Streamlit server and open the application in your default web browser.
 
 ## Features
-First, the OCR reads all text from the provided image, alongside corresponding confidence scores and bounding boxes.  
+Optional image preprocessing aligns the image and makes it more readable by inverting the image, putting the image in grayscale, and utilizing binarization. If confidence scores of extracted text are improved by a preprocessing step, the result is kept and used as the new reference image to better the next step.
+
+After preprocessing or if preprocessing is skipped, the OCR reads all text from the provided image, alongside corresponding confidence scores and bounding boxes.  
 
 Text is then compared to predetermined positive or negative indicators of notable information. For example, the words `date` or `time` are strong positive indicators that the string is a Date or Time, `am` or `pm` are weak positive indicators that the string is a Time, and `account number` is a negative indicator that the string would be a Date. Similar indicators exist for Total and Amount text strings.  
 

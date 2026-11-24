@@ -1,5 +1,7 @@
 from pathlib import Path
 
+import easyocr
+
 # Define input paths
 PROJECT_ROOT = Path(Path.cwd())
 INPUT_DIR = Path(PROJECT_ROOT, 'data/input')
@@ -12,6 +14,9 @@ OUTPUT_DIR = Path(PROJECT_ROOT, 'data/output')
 OUTPUT_CSV_FILE_PATH = Path(OUTPUT_DIR, 'annotations.csv')
 OUTPUT_JSON_DIR = Path(OUTPUT_DIR, 'json')
 OUTPUT_IMAGES_DIR = Path(OUTPUT_DIR, 'annotated_images')
+
+# Initialize the OCR reader and select language to read
+READER = easyocr.Reader(['en'])
 
 # Classes to be identified from the receipt
 ALLOWED_CLASSES = [

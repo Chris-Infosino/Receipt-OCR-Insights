@@ -13,7 +13,7 @@ def display_image(image_container, image_file, filename):
     """App display and button functionality."""
     image_container.image(image_file, caption = filename)
 
-def select_random_receipt(image_container, text_container, progress_container, success_container):
+def select_random_receipt(image_container, text_container, progress_container, success_container, preprocess_flag):
     # Get a list of all image files for users to pull from
     image_files = [file for file in os.listdir(IMAGES_DIR) if file.endswith('.jpg')]
 
@@ -25,17 +25,17 @@ def select_random_receipt(image_container, text_container, progress_container, s
         image_preview = cv2.imread(image_path)
         display_image(image_container, image_preview, image_file)
         try:
-            process_receipt(image_container, text_container, progress_container, success_container, image_preview, image_file)
+            process_receipt(image_container, text_container, progress_container, success_container, image_preview, image_file, preprocess_flag)
         except:
             text_container.write("An error was encountered with this image, please select a new file")
 
 
-def use_uploaded_receipt(image_container, text_container, progress_container, success_container, uploaded_file):
+def use_uploaded_receipt(image_container, text_container, progress_container, success_container, uploaded_file, preprocess_flag):
     normalized_file = PILImage.open(uploaded_file)
     uploaded_filename = uploaded_file.name
     display_image(image_container, normalized_file, uploaded_filename)
     try:
-        process_receipt(image_container, text_container, progress_container, success_container, np.array(normalized_file), uploaded_filename)
+        process_receipt(image_container, text_container, progress_container, success_container, np.array(normalized_file), uploaded_filename, preprocess_flag)
     except:
         text_container.write("An error was encountered with this image, please select a new file")
 

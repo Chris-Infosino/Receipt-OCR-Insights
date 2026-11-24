@@ -1,15 +1,21 @@
 import os
 
 import numpy as np
-import easyocr
 
-# Initialize the OCR reader and select language to read
-reader = easyocr.Reader(['en'])
+from constants import READER
+from preprocess import preprocess_image
 
-def extract_text(image_to_read, image_filename):
+def extract_text(image_to_read, image_filename, preprocess_flag):
     """Use the OCR to extract text strings, confidence scores, and coordinates."""
 
-    result = reader.readtext(image_to_read)
+    # if preprocess_flag == True:
+    #     try:
+    #         preprocessed_image = preprocess_image(image_to_read)
+    #         result = READER.readtext(preprocessed_image)
+    #     except:
+    #         result = READER.readtext(image_to_read)
+    # else:
+    result = READER.readtext(image_to_read)
         
     extracted_ocr_data = {
     'raw_results': result,
